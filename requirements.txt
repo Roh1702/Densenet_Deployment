@@ -1,6 +1,5 @@
 torch 
 numpy
-math
 torchvision
 PIL
 streamlit

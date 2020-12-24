@@ -1,7 +1,7 @@
 **Densenet Image Classification**
   * This repo comprises of trained DenseNet on cifar10 and then using Streamlit for Model serving.
 
-**For Inference**
+**Deployment Setup**
   * git clone https://github.com/Roh1702/Densenet_Deployment #clone the repo
   * cd Densenet_Deployment
   * Now we need to install some basic requirement, so the below command

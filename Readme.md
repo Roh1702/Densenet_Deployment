@@ -3,7 +3,7 @@
 
 **For Inference**
   * git clone https://github.com/Roh1702/Densenet_Deployment #clone the repo
-  * cd Densenet-Image-Classification-and-Deployment.
+  * cd Densenet_Deployment
   * Now we need to install some basic requirement, so the below command
   * pip install -r requirements.txt # install the requirements
 

@@ -1,16 +1,12 @@
-Streamlit Image Classification
+**Streamlit Image Classification**
 This repo comprises of trained DenseNet on cifar10 and then using Streamlit for Model serving.
 
-Setting up the Environment
+**For Inference**
+git clone https://github.com/Roh1702/Densenet_Deployment #clone the repo
+cd Densenet-Image-Classification-and-Deployment.
+Now we need to install some basic requirement, so the below command
+pip install -r requirements.txt # install the requirements
 
-
-
-
-For Inference
-we need Cifar-10 data for inference. Execute the below to generate 10 random images from cifar-10 test data.
-
-
-Model Serving on Flask.
-
-For Serving this model as a website. First generate test images by executing above commands and then.
-python flask_api/app.py
+**Model Serving on Streamlit**
+For Serving this model as a website execute below commands
+STREAMLIT RUN streamlit_app_infer.py

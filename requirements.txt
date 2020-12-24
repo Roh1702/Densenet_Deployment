@@ -3,3 +3,4 @@ numpy
 math
 torchvision
 PIL
+streamlit

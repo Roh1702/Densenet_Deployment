@@ -1,4 +1,4 @@
-**Streamlit Image Classification**
+**Densenet Image Classification**
   * This repo comprises of trained DenseNet on cifar10 and then using Streamlit for Model serving.
 
 **For Inference**
@@ -8,5 +8,10 @@
   * pip install -r requirements.txt # install the requirements
 
 **Model Serving on Streamlit**
-* For Serving this model as a website execute below commands
-* STREAMLIT RUN streamlit_app_infer.py
+ * For Serving this model as a website execute below commands
+ * STREAMLIT RUN streamlit_app_infer.py
+
+**APP UI**
+ * Select any one image from test image folder.
+ * CLick on Run
+ 
